@@ -5,7 +5,7 @@
 3)	Инициализируем  в папке – MyHomeWorks_Java пустой локальный репозиторий : вводим  команду Git init.
 4)	Делаем связку локального репо с удаленным: Вводим команду:
    git remote add origin git@github.com:DmitrySavostyanov/Java_HOME_WORKS.git.
-* где, адрес SSH (git@github.com:DmitrySavostyanov/Java_HOME_WORKS.git) копируем из удаленного репозитория.
+* где, адрес SSH: (git@github.com:DmitrySavostyanov/Java_HOME_WORKS.git) копируем из удаленного репозитория.
 
 5)	Параллельно решаем задачи в IDEA. Например - решили домашку №2 из двух задач. 
 6)	Копируем пакеты (папки) с Java файлами  из папки src проекта в IDEA в папку MyHomeWorks нашего локального репозитория.
