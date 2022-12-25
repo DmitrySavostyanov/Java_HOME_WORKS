@@ -6,10 +6,9 @@ import java.util.Scanner;
 Определите в какую декаду месяца попадает это число (в первую, вторую или третью).
  */
 
-public class Task2_3 {
+public class Task2_2_ver_2 {
 
     public static void main(String[] args) {
-
 
         System.out.println("Введите число из интервала от 1 до 31: ");
         Scanner sc = new Scanner(System.in);
