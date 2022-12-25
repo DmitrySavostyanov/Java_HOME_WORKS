@@ -4,13 +4,14 @@ package HomeWork.TasksPack1.TasksPack2;
 В переменной day лежит какое-то число из интервала от 1 до 31.
 Определите в какую декаду месяца попадает это число (в первую, вторую или третью).
  */
+//https://www.center-pss.ru/st/table/table-dekad.htm
 import java.util.Scanner;
 
 public class Task2_1 {
     public static void main(String[] args) {
         System.out.println("Введите число из интревала от 1 до 31: ");
         Scanner sc = new Scanner(System.in);
-        int day = sc.nextInt();
+        byte day = sc.nextByte();
 
         switch (day) {
             case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
@@ -20,7 +21,6 @@ public class Task2_1 {
                 System.out.print("Число лежит во второй декаде месяца");
                 break;
             case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 29: case 30: case 31:
-                //https://www.center-pss.ru/st/table/table-dekad.htm
                 System.out.print("Число лежит в третьей декаде месяца");
                 break;
             default:

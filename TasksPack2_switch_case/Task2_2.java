@@ -10,7 +10,7 @@ public class Task2_2 {
     public static void main(String[] args) {
         System.out.println("Введите номер месяца от 1 до 12: ");
         Scanner sc = new Scanner(System.in);
-        int month = sc.nextInt();
+        byte month = sc.nextByte();
 
         switch (month){
             case 1: case 2: case 12:
