@@ -23,19 +23,23 @@ public class SqrNum_While {
         int num = sc.nextInt();
         System.out.println(num);
         int result = 0;// введенное число которое ищет программа
-        int sqrNum = 0;//кол-во квадратов
-        int i = 0; //счётчик
+        //int sqrNum = 0;//кол-во квадратов
+        int i = 0; //счётчик/ подсчет кол-ва квадратов
         while (i < num) {
             if (i * i >= num) {
                 break;
             }
             i++;
             result = i * i;
-            sqrNum++;
+
+            //sqrNum++;
             System.out.println(i + "^2 = " + result);
         }
 
-        System.out.println(sqrNum + "^2" + " (квадрат числа) = " + result + " (результат)");
-        System.out.println("количество квадратов  = " + sqrNum); // вывод количества квадратов
+       // System.out.println(sqrNum + "^2" + " (квадрат числа) = " + result + " (результат)");
+      //  System.out.println("количество квадратов  = " + sqrNum); // вывод количества квадратов
+        System.out.println(i + "^2" + " (квадрат числа) = " + result + " (результат)");
+        System.out.println("количество квадратов  = " + i); // вывод количества квадратов
+
     }
 }
