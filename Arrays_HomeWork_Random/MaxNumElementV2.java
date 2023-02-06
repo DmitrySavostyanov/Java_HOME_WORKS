@@ -7,7 +7,7 @@ public class MaxNumElementV2 {
         int num[] = new int[10];
         //Заполнение массива
         for (int i = 1; i < 10; i++)
-            num[i] = (int) (Math.random() * 100); // 0 - 1 ---> 0 - 100
+            num[i] = (int) ((Math.random() * 2000) - 1000); // 0 - 1 ---> - 1000  до 1000
         //Вывод массива
         for (int i = 0; i < num.length; i++) {
             if(num[i] > maxNumElement){
@@ -17,3 +17,10 @@ public class MaxNumElementV2 {
         System.out.println("макс. знач. элемента массива = " + maxNumElement);
     }
 }
+
+/*
+num[i] = (int)((Math.random() * 2000) - 1000)  -----> (0 * 2000) - 1000  до (1 * 2000) - 1000 ---->  -1000 до 1000
+
+
+
+ */
