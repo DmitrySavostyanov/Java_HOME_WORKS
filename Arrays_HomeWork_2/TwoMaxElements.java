@@ -13,7 +13,7 @@ public class TwoMaxElements {
         for (int i = 1; i < 10; i++)
             num[i] = (int) (Math.random() * 10);
         for (int i = 0; i < num.length; i++) {
-            num[i]++;
+           // num[i]++;
             System.out.println("index  = " + i + "; element = " + num[i] + ";");
             //Сперва выведем 1 мах элемент.
             if (num[i] > numMax1) {
